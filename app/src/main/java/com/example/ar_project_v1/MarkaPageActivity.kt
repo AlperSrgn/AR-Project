@@ -93,7 +93,7 @@ class MarkaPageActivity : AppCompatActivity() {
 
         //**************************************************************************************************************************
 
-        val itemsLambo = arrayOf("LAMBORGHİNİ","Urus", "Gallardo")
+        val itemsLambo = arrayOf("LAMBORGHİNİ","Huracan", "Gallardo")
 
         // ArrayAdapter oluşturma ve öğeleri Spinner'a bağlama
         val adapterLambo = ArrayAdapter(this, android.R.layout.simple_spinner_item, itemsLambo)
@@ -248,13 +248,13 @@ class MarkaPageActivity : AppCompatActivity() {
                 // Seçilen öğe değiştikçe buraya kod ekleyebilirsiniz.
                 val selectedValue = itemsLambo[position]
 
-                if (selectedValue.equals("Urus")){
+                if (selectedValue.equals("Huracan")){
                     Toast.makeText(applicationContext, "Seçilen öğe: $selectedValue", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this@MarkaPageActivity, Bmw_i8_Activity::class.java))
+                    startActivity(Intent(this@MarkaPageActivity, LamborginiHuracanActivity::class.java))
                 }
                 else if (selectedValue.equals("Gallardo")){
                     Toast.makeText(applicationContext, "Seçilen öğe: $selectedValue", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this@MarkaPageActivity, Bmw_m2_Activity::class.java))
+                    startActivity(Intent(this@MarkaPageActivity, LamborginiGallardoActivity::class.java))
                 }
             }
 
