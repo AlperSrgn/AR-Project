@@ -175,7 +175,7 @@ class MarkaPageActivity : AppCompatActivity() {
                 }
                 else if(selectedValue.equals("İnnova")){
                     Toast.makeText(applicationContext, "Seçilen öğe: $selectedValue", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this@MarkaPageActivity, Bmw_m2_Activity::class.java))
+                    startActivity(Intent(this@MarkaPageActivity, Toyota_Innova_Activity::class.java))
                 }
             }
 
@@ -278,9 +278,9 @@ class MarkaPageActivity : AppCompatActivity() {
                     Toast.makeText(applicationContext, "Seçilen öğe: $selectedValue", Toast.LENGTH_SHORT).show()
                     startActivity(Intent(this@MarkaPageActivity, Porsche911Activity::class.java))
                 }
-                else if (selectedValue.equals("Gallardo")){
+                else if (selectedValue.equals("718 boxster")){
                     Toast.makeText(applicationContext, "Seçilen öğe: $selectedValue", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this@MarkaPageActivity, Bmw_m2_Activity::class.java))
+                    startActivity(Intent(this@MarkaPageActivity, Porsche718_Activity::class.java))
                 }
             }
 
