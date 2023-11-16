@@ -291,7 +291,5 @@ class MarkaPageActivity : AppCompatActivity() {
 
         }
 
-
-
     }
 }
