@@ -49,7 +49,7 @@
             android:layout_marginLeft="170dp"
             android:layout_marginTop="10dp"
             android:paddingRight="5dp"
-            android:text="362 BG"
+            android:text="123 BG"
             android:textSize="20dp" />
 
 
@@ -71,7 +71,7 @@
             android:layout_marginLeft="170dp"
             android:layout_marginTop="60dp"
             android:paddingRight="5dp"
-            android:text="320 Nm"
+            android:text="153 Nm"
             android:textSize="20dp" />
 
         <TextView
@@ -92,7 +92,7 @@
             android:layout_marginLeft="170dp"
             android:layout_marginTop="110dp"
             android:paddingRight="5dp"
-            android:text="4.4  Sn"
+            android:text="12.1 Sn"
             android:textSize="20dp" />
 
         <TextView
@@ -113,7 +113,7 @@
             android:layout_marginLeft="170dp"
             android:layout_marginTop="160dp"
             android:paddingRight="5dp"
-            android:text="250km/sa"
+            android:text="190km/sa"
             android:textSize="20dp" />
 
     </androidx.cardview.widget.CardView>
