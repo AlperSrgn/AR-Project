@@ -92,6 +92,18 @@
             android:name=".ToyotaCorollaActivity"
             android:exported="false" />
         <activity
+            android:name=".Volkswagen_Amarok_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Volkswagen_Amarok_Camera_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Vw_Beetle_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Vw_Beetle_Camera_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity
