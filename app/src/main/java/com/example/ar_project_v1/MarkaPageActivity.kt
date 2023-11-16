@@ -17,7 +17,7 @@ class MarkaPageActivity : AppCompatActivity() {
     private lateinit var BMWSpinner: Spinner
     private lateinit var PorscheSpinner: Spinner
     private lateinit var HondaSpinner: Spinner
-    private lateinit var VolswagenSpinner: Spinner
+    private lateinit var VolkswagenSpinner: Spinner
     private lateinit var LamborghiniSpinner: Spinner
 
 
@@ -30,7 +30,7 @@ class MarkaPageActivity : AppCompatActivity() {
         BMWSpinner = findViewById(R.id.spinnerBMW)
         PorscheSpinner = findViewById(R.id.spinnerPorsche)
         HondaSpinner = findViewById(R.id.spinnerHonda)
-        VolswagenSpinner = findViewById(R.id.spinnervw)
+        VolkswagenSpinner = findViewById(R.id.spinnervw)
         LamborghiniSpinner = findViewById(R.id.spinnerlambo)
 
 
@@ -84,12 +84,12 @@ class MarkaPageActivity : AppCompatActivity() {
 
         //**************************************************************************************************************************
 
-        val itemsVw = arrayOf("VOLKSWAGEN","Amarok", "Golf")
+        val itemsVw = arrayOf("VOLKSWAGEN","Amarok", "Beetle")
 
         // ArrayAdapter oluşturma ve öğeleri Spinner'a bağlama
         val adapterVw = ArrayAdapter(this, android.R.layout.simple_spinner_item, itemsVw)
         adapterVw.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        VolswagenSpinner.setAdapter(adapterVw)
+        VolkswagenSpinner.setAdapter(adapterVw)
 
         //**************************************************************************************************************************
 
@@ -212,7 +212,7 @@ class MarkaPageActivity : AppCompatActivity() {
 
 
         }
-        VolswagenSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+        VolkswagenSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
                 parentView: AdapterView<*>?,
                 selectedItemView: View?,
@@ -224,11 +224,11 @@ class MarkaPageActivity : AppCompatActivity() {
 
                 if (selectedValue.equals("Amarok")){
                     Toast.makeText(applicationContext, "Seçilen öğe: $selectedValue", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this@MarkaPageActivity, Bmw_i8_Activity::class.java))
+                    startActivity(Intent(this@MarkaPageActivity, Volkswagen_Amarok_Activity::class.java))
                 }
-                else if (selectedValue.equals("Golf")){
+                else if (selectedValue.equals("Beetle")){
                     Toast.makeText(applicationContext, "Seçilen öğe: $selectedValue", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this@MarkaPageActivity, Bmw_m2_Activity::class.java))
+                    startActivity(Intent(this@MarkaPageActivity, Vw_Beetle_Activity::class.java))
                 }
             }
 
