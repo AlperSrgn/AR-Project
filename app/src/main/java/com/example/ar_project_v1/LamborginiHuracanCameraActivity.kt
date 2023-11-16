@@ -23,13 +23,13 @@ class LamborginiHuracanCameraActivity : AppCompatActivity() {
 
         bottomNavigationView.setOnNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
-                R.id.action_huracan -> loadModel("models/lamborghini_urus.glb")
+                R.id.action_huracan -> loadModel("models/huracan_eagletm.glb")
             }
             true
         }
 
         modelNode = ArModelNode().apply {
-            loadModelGlbAsync(glbFileLocation = "models/lamborghini_urus.glb") {
+            loadModelGlbAsync(glbFileLocation = "models/huracan_eagletm.glb") {
                 sceneView.planeRenderer.isVisible = true
             }
         }
