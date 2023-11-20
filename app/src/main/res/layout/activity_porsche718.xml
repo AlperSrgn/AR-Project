@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
+    android:background="@drawable/porchebc"
     tools:context=".Porsche718_Activity">
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="341dp"
         android:layout_height="272dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

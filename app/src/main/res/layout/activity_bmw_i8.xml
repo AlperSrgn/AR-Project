@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
+    android:background="@drawable/backgr"
     tools:context=".Bmw_i8_Activity">
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="348dp"
         android:layout_height="292dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bmw_i8" />
