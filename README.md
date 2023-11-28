@@ -1,15 +1,13 @@
-# AR-Project
-##Özet:
-- Bu proje, araç tanıtımını daha etkileşimli hale getirmeyi hedefleyen bir Android uygulamasını içermektedir. 
-- Uygulama, kullanıcıların araç marka ve modellerini seçmelerine olanak tanıyacak, seçilen aracın detaylı bilgilerini görüntülemelerini sağlayacak ve 
-nihayetinde bir 3D model üzerinde aracı incelemelerine imkan verecektir.
+## AR Project
+# Summary:
+-This project includes an Android application aiming to make vehicle introductions more interactive.
+-The application will allow users to select vehicle brands and models, view detailed information about the selected vehicle, and ultimately examine the vehicle on a 3D model.
 
-##Kullanılan Ortam ve Programlama Dili:
-- Android Studio uygulama geliştirme ortamında Kotlin programlama dilini kullandık.
+# Environment and Programming Language Used:
+-Kotlin programming language was utilized in the Android Studio application development environment.
 
-##Proje Bilgileri:
-- Bu projede 3D assetler kullanılarak araç tanıtımı gerçekleştirir.
-- Araç assetleri için  Sketchfab adlı web sayfasından yararlanılmıştır.
-- Kotlin ve Ar-Core temelinde bir proje yapılma amaçlanmıştır.
-- Kullanıcı ana sayfadan istediği modeli seçmeli. Ardından istediğ aracın bilgilerine erişmeli ve daha sonra araç tanıtımı aktivitesine götüren bir buton ile araç tanıtımı aktivitesine geçmelidir.
-
+# Project Details:
+-Vehicle introductions are carried out using 3D assets in this project.
+-Sketchfab, a web page, was used for vehicle assets.
+-The project is designed based on Kotlin and Ar-Core.
+-The user should choose the desired model from the main page. Then, they should access the information about the selected vehicle and proceed to the vehicle introduction activity with a button leading to the vehicle introduction activity.
